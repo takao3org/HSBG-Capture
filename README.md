@@ -1,8 +1,38 @@
 # HSBG-Capture
-Hearthstone Battleground MMR/Rank Capture
+Hearthstone Battleground Rank/Rating Capture
 
 ## Feature
+- バトルグラウンドの各試合が終了する度にあなたの最終順位をキャプチャ
+- バトルグラウンドのレーティングをキャプチャ
+- キャプチャされた順位及びレーティングを自動的にファイルに保存
+
+## Setup
+1. 最終順位及びレーティングを格納するディレクトリを作成し'hbc.exe'を保存
+2. 'hbc.exe'ファイルを実行
+3. OBSの設定 (if needed)  
+(a) ソースに'テキスト (GDI+)'を追加  
+  
+[OBS](https://github.com/takao3org/HSBG-Capture/blob/master/img/obs1.jpg)
+  
+　　(b) プロパティの'ファイルから読み取り'にチェック
+
+[OBS](https://github.com/takao3org/HSBG-Capture/blob/master/img/obs2.jpg)
+
+　　(c) テキストファイルに1.のディレクトリの'rank.txt'か'rate.txt'を指定
+  
+- 'rank.txt'には最終順位の履歴が、'rate.txt'はレーティングが格納されます
+- 最終順位の履歴とレーティングの両方を表示したい場合は'テキスト (GDI+)'を  
+追加して下さい
 
 ## How to Use
+1. 'Rank'横のボックスに最終順位の履歴が表示されます(画像の1部分)。  
+　- 'クリア'ボタンを押すと履歴がクリアされます
+  - 最終順位の履歴を編集して'更新'ボタンを押すと'rank.txt'が更新されます
+
+2. 'Rate'横にあるボックスにレーティングが表示されます(画像の2部分)
+　- レーティングを編集して'更新'ボタンを押すと'rate.txt'ファイルが更新されます
+
+[HBC](https://github.com/takao3org/HSBG-Capture/blob/master/img/window.jpg)
 
 ## License
+パブリックドメイン
