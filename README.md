@@ -12,11 +12,11 @@ Hearthstone Battleground Rank/Rating Capture
 3. OBSの設定 (if needed)  
 (a) ソースに'テキスト (GDI+)'を追加  
   
-[OBS](https://github.com/takao3org/HSBG-Capture/blob/master/img/obs1.jpg)
-  
+　　<img width="600" alt="OBS画像1" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/obs1.jpg">
+
 　　(b) プロパティの'ファイルから読み取り'にチェック
 
-[OBS](https://github.com/takao3org/HSBG-Capture/blob/master/img/obs2.jpg)
+　　<img width="600" alt="OBS画像2" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/obs2.jpg">
 
 　　(c) テキストファイルに1.のディレクトリの'rank.txt'か'rate.txt'を指定
   
@@ -26,13 +26,13 @@ Hearthstone Battleground Rank/Rating Capture
 
 ## How to Use
 1. 'Rank'横のボックスに最終順位の履歴が表示されます(画像の1部分)。  
-　- 'クリア'ボタンを押すと履歴がクリアされます
-  - 最終順位の履歴を編集して'更新'ボタンを押すと'rank.txt'が更新されます
+　- 'クリア'ボタンを押すと履歴がクリアされます  
+  - 履歴を編集して'更新'ボタンを押すと'rank.txt'がその値に上書きされます  
+  
+2. 'Rate'横にあるボックスにレーティングが表示されます(画像の2部分)  
+　- レーティングを編集して'更新'ボタンを押すと'rate.txt'ファイルがその値に上書きされます  
 
-2. 'Rate'横にあるボックスにレーティングが表示されます(画像の2部分)
-　- レーティングを編集して'更新'ボタンを押すと'rate.txt'ファイルが更新されます
-
-[HBC](https://github.com/takao3org/HSBG-Capture/blob/master/img/window.jpg)
+　　<img alt="HBC画像" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/window.jpg">
 
 ## License
 パブリックドメイン
