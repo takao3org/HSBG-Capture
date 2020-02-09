@@ -26,11 +26,11 @@ Hearthstone Battleground Rank/Rating Capture
 
 ## How to Use
 1. 'Rank'横のボックスに最終順位の履歴が表示されます(画像の1部分)。  
-　- 'クリア'ボタンを押すと履歴がクリアされます  
-  - 履歴を編集して'更新'ボタンを押すと'rank.txt'がその値に上書きされます  
+　\- 'クリア'ボタンを押すと履歴がクリアされます  
+　\- 値を編集して'更新'ボタンを押すと'rank.txt'がその値に上書きされます  
   
 2. 'Rate'横にあるボックスにレーティングが表示されます(画像の2部分)  
-　- レーティングを編集して'更新'ボタンを押すと'rate.txt'ファイルがその値に上書きされます  
+　- 値を編集して'更新'ボタンを押すと'rate.txt'ファイルがその値に上書きされます  
 
 　　<img alt="HBC画像" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/window.jpg">
 
