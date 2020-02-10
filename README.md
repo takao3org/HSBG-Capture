@@ -7,16 +7,17 @@ Hearthstone Battleground Rank/Rating Capture
 - キャプチャされた順位及びレーティングを自動的にファイルに保存
 
 ## Setup
-1. 最終順位及びレーティングを格納するディレクトリを作成し'hbc.exe'を保存
-2. 'hbc.exe'ファイルを実行
-3. OBSの設定 (if needed)  
+1. [リリースページ](https://github.com/takao3org/HSBG-Capture/releases)から'hbc.zip'をダウンロード＆解凍
+2. 最終順位及びレーティングを格納するディレクトリを作成し'hbc.exe'を保存
+3. 'hbc.exe'ファイルを実行
+4. OBSの設定 (if needed)  
 (a) ソースに'テキスト (GDI+)'を追加  
   
-　　<img width="600" alt="OBS画像1" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/obs1.jpg">
+　　<img width="700" alt="OBS画像1" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/obs1.jpg">
 
 　　(b) プロパティの'ファイルから読み取り'にチェック
 
-　　<img width="600" alt="OBS画像2" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/obs2.jpg">
+　　<img width="700" alt="OBS画像2" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/obs2.jpg">
 
 　　(c) テキストファイルに1.のディレクトリの'rank.txt'か'rate.txt'を指定
   
@@ -35,4 +36,4 @@ Hearthstone Battleground Rank/Rating Capture
 　　<img alt="HBC画像" src="https://github.com/takao3org/HSBG-Capture/blob/master/img/window.jpg">
 
 ## License
-パブリックドメイン
+Public Domain
